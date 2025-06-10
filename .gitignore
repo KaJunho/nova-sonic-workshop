@@ -1,0 +1,4 @@
+python-server/.venv
+python-server/__pycache__
+react-client/package-lock.json
+react-client/node_modules
