@@ -17,7 +17,7 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 # export BOOKING_LAMBDA_ARN=$(aws cloudformation describe-stacks --stack-name bedrock-agents --query "Stacks[0].Outputs[?OutputKey=='BookingLambdaArn'].OutputValue" --output text)
 
 # Set ak, sk, and region
-source <(python ../set_env.py)
+source <(python set_env.py)
 
 # Set websocket server host and port
 export HOST="0.0.0.0"

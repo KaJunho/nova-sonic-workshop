@@ -3,3 +3,4 @@ python-server/__pycache__
 python-server/integration/__pycache__
 react-client/package-lock.json
 react-client/node_modules
+package-lock.json
